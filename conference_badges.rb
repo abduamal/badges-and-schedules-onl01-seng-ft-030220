@@ -1,6 +1,6 @@
 def badge_maker(names)
   names.each do |name|
-    message =  "Hello, my name is #{name}."
+    name_tag =  "Hello, my name is #{name}."
   end
-  return message
+  return name_tag
 end
