@@ -20,7 +20,6 @@ def assign_rooms (names)
 end
 
 def printer(names)
-  combo_list = []
-  combo_list << batch_badge_creator(names) + assign_rooms(names)
-  return combo_list
+  batch_badge_creator(names).each {|ele| puts ele}
+  assign_rooms(names).each {|ele| puts ele}
 end
