@@ -19,8 +19,8 @@ def assign_rooms (names)
   return names
 end
 
-def printer
-  combo = []
-  combo << batch_badge_creator + assign_rooms
-  return combo 
+def printer(names)
+  combo_list = []
+  combo_list << batch_badge_creator(names) + assign_rooms(names)
+  return combo_list
 end
