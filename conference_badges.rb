@@ -12,7 +12,10 @@ end
 
 def assign_rooms (names)
   room_assignments = []
+  room_num = 1
   names.each_with_index do |name, idx|
-    
+    if room_num < 8
+      
+    end
   end
 end
